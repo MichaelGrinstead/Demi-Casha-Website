@@ -16,12 +16,28 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html {
+  height: 100%;
+  background-color: "#F7F7F7"
 }
+
+body {
+  font-family: 'Inter', sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+.page-section {
+  min-height: 100vh; /* ensures it takes up the full viewport height */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.page-section.first {
+  background-image: url('/DemiBackground.jpg');
+}
+
+/* .page-section.second {
+  background-image: url('/backgroundImage2.jpg');
+} */
