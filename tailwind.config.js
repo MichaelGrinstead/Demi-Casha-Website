@@ -8,9 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        brown: '#622A0F',
+        "brown": '#622A0F',
 
+      },
+      textColor: {
+        "brown": '#622A0F',
       }
+
 
     },
   },
