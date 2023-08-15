@@ -11,7 +11,7 @@ export default function Header() {
             <div className="w-full h-full flex flex-row justify-center items-center gap-24">
             <Navbar />
             <Image className="mt-8" src={logo} alt="logo" width={400} height={200} />
-            <div className="text-black right-48 top-120 flex flex-row gap-10">
+            <div className="text-brown right-48 top-120 flex flex-row gap-10">
             <BsInstagram className="h-10 w-10" />
             <SlSocialSpotify className="h-10 w-10" />
             <RiYoutubeLine className="h-12 w-12" />
