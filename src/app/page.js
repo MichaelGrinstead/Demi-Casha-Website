@@ -1,8 +1,17 @@
-import Image from 'next/image'
+
+import About from "@/components/About"
+import Landing from "@/components/Landing"
+import Tour from "@/components/Tour"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
+ 
+      <Landing />
+      <About />
+      <Tour />
+
+
      
     </main>
   )
