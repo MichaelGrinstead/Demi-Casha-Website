@@ -4,8 +4,11 @@ import Navbar from "./Navbar"
 import {SlSocialSpotify} from "react-icons/sl"
 import {RiYoutubeLine} from "react-icons/ri"
 import {BsInstagram} from "react-icons/bs"
+
+
 export default function Header() {
 
+ 
     return (
         <nav className=" top-0 z-50 bg-transparent h-48">
             <div className="w-full h-full flex flex-row justify-center items-center gap-24">
@@ -17,6 +20,7 @@ export default function Header() {
             <RiYoutubeLine className="h-12 w-12" />
 
             </div>
+         
          
            
 
