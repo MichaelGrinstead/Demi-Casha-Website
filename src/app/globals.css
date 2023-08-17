@@ -41,10 +41,15 @@ body {
 
 .page-section.second {
   background-color: antiquewhite;
-  border-bottom: solid 1px #622A0F;
+  
 }
 
 .page-section.third {
   background-color: antiquewhite;
-  border-bottom: solid 1px #622A0F;
+ 
+}
+
+.page-section.fourth {
+  background-color: antiquewhite;
+
 }
