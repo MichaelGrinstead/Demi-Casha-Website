@@ -21,11 +21,14 @@ export default function StickyNavbar() {
 
   if (showNavbar) {
     return (
-      <nav className="header-animation fixed top-0 flex flex-row justify-center items-center gap-10 text-white w-full h-8 bg-brown bg-opacity-98">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Tour">Tour</a>
-        <a href="#Video">Video</a>
+      <nav className="header-animation fixed top-0 flex flex-row justify-center items-center gap-6 text-white w-full h-10 bg-brown bg-opacity-80">
+        <a href="#Home">HOME</a>
+        <a href="#About">ABOUT</a>
+        <a href="#Tour">TOUR</a>
+        <a href="#Watch">WATCH</a>
+        <a href="https://demicasha.bandcamp.com/">SHOP</a>
+        <a href="#Listen">LISTEN</a>
+        <a href="#Contact">CONTACT</a>
       </nav>
     );
   }
