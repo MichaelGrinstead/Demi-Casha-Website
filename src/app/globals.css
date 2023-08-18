@@ -53,3 +53,16 @@ body {
   background-color: antiquewhite;
 
 }
+
+@keyframes popDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.header-animation {
+  animation: popDown 0.2s ease-out forwards;
+}
