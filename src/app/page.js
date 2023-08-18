@@ -1,6 +1,6 @@
 import Landing from "../components/Landing"
 import About from "../components/About"
-import Video from "../components/Video"
+import Watch from "../components/Watch"
 import Tour from "../components/Tour"
 
 
@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Landing />
       <About />
-      <Video />
+      <Watch />
       <Tour />
     </main>
   )
