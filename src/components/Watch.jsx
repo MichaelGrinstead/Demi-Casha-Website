@@ -1,6 +1,6 @@
-export default function Video() {
+export default function Watch() {
   return (
-    <div className="page-section fourth" id="Video">
+    <div className="page-section fourth" id="Watch">
       <div className="h-full flex flex-col justify-center items-center">
         <div className="mt-24">
           <iframe
