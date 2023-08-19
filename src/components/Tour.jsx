@@ -2,7 +2,7 @@ export default function Tour() {
   return (
     <div className="page-section third" id="Tour">
       <div className="h-full flex flex-col justify-center items-center">
-        <div className="mt-24 w-full">
+        <div className="mt-48 w-full">
           <a
             href="https://www.songkick.com/artists/10287548"
             className="songkick-widget"
