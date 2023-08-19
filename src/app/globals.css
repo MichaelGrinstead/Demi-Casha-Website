@@ -40,17 +40,27 @@ body {
 }
 
 .page-section.second {
-  background-color: antiquewhite;
+  background-color: #faebd7;
   
 }
 
 .page-section.third {
-  background-color: antiquewhite;
+  background-color: #faebd7;
  
 }
 
 .page-section.fourth {
-  background-color: antiquewhite;
+  background-color: #faebd7;
+
+}
+
+.page-section.fifth {
+  background-color: #faebd7;
+
+}
+
+.page-section.sixth {
+  background-color: #faebd7;
 
 }
 
@@ -65,4 +75,24 @@ body {
 
 .header-animation {
   animation: popDown 0.2s ease-out forwards;
+}
+
+.text-border-header {
+  text-shadow: 
+  2px 0 0 #65370E, 
+  -2px 0 0 #65370E, 
+  0 2px 0 #65370E, 
+  0 -2px 0 #65370E,
+  2px 2px 0 #65370E, 
+  -2px -2px 0 #65370E, 
+  2px -2px 0 #65370E, 
+  -2px 2px 0 #65370E;
+}
+
+.text-border {
+  text-shadow: 
+    2px 0 0 #65370E, 
+    -2px 0 0 #65370E, 
+    0 2px 0 #65370E, 
+    0 -2px 0 #65370E;
 }
