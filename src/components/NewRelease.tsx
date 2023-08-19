@@ -1,6 +1,6 @@
 export default function NewRelease() {
   return (
-    <div className="flex flex-col justify-center items-center w-1/2 mt-48 ml-8 font-semibold font text-white tracking-widest">
+    <div className="flex flex-col justify-center items-center w-1/2 lg:mt-48 xxs:mt-24 ml-8 font-semibold font text-white tracking-widest">
       <h1 className="xxs:text-4xl lg:text-7xl text-border-header">THE</h1>
       <h1 className="xxs:text-4xl lg:text-7xl text-border-header">RIVER</h1>
       <h2 className="xxs:hidden lg:block lg:text-3xl mt-8 text-border">
