@@ -8,13 +8,9 @@ export default function Header() {
     <nav className=" top-0 z-50 bg-transparent h-36">
       <div className="w-full h-full flex flex-row justify-center items-center gap-12">
         <NavbarLeft />
-        <Image
-          className="mt-4"
-          src={logo}
-          alt="logo"
-          width={300}
-          height={150}
-        />
+        <div className="h-40 w-80 mt-16 ">
+          <Image src={logo} alt="logo" />
+        </div>
         <NavbarRight />
       </div>
     </nav>

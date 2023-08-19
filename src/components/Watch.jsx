@@ -2,10 +2,9 @@ export default function Watch() {
   return (
     <div className="page-section fourth" id="Watch">
       <div className="h-full flex flex-col justify-center items-center">
-        <div className="mt-24">
+        <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
-            width="1120"
-            height="630"
+            className="w-full h-full"
             src="https://www.youtube.com/embed/V84wgdr3_eo"
             title="YouTube video player"
             frameborder="0"
@@ -13,13 +12,9 @@ export default function Watch() {
             allowfullscreen
           ></iframe>
         </div>
-        <div
-          className="mt-24
-            "
-        >
+        <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
-            width="1120"
-            height="630"
+            className="w-full h-full"
             src="https://www.youtube.com/embed/SB1fRZU86uE"
             title="YouTube video player"
             frameborder="0"

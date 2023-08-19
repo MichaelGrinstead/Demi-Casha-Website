@@ -4,7 +4,7 @@ export default function StickyNavbar() {
   const [showNavbar, setShowNavbar] = useState(false);
 
   const navbarClass = showNavbar
-    ? "header-animation fixed top-0 flex flex-row justify-center items-center gap-6 text-white w-full h-10 bg-brown bg-opacity-80"
+    ? "hidden header-animation fixed top-0 lg:flex flex-row justify-center items-center gap-6 text-white w-full h-10 bg-brown bg-opacity-80"
     : "hidden";
 
   useEffect(() => {

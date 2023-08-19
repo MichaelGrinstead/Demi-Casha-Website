@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="page-section second" id="About">
-      <div className="h-full flex flex-col justify-center items-center w-1/2 ml-auto mr-auto">
+      <div className="h-full flex flex-col justify-center items-center w-1/2 xxs:w-3/4 ml-auto mr-auto">
         <p className="text-brown text-xl mt-24">
           An electrifying psychedelic folk singer/songwriter with a resonance
           that far exceeds her years, Demi Casha’s particular brand of gum tree
