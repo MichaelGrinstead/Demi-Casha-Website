@@ -1,6 +1,8 @@
 import './globals.css'
 import { BioRhyme } from 'next/font/google'
 import StickyNavbar from '../components/StickyNavbar'
+import StickyMobileNavbar from '../components/StickyMobileNavbar'
+
 
 const bioRhyme = BioRhyme({ weight: "400", subsets: ['latin-ext']})
 
@@ -15,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={bioRhyme.className}>
         <div>
           <StickyNavbar />
+          <StickyMobileNavbar />
           {children}
 
         </div>
