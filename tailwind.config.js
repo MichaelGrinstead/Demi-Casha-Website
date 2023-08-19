@@ -9,11 +9,20 @@ module.exports = {
     extend: {
       backgroundColor: {
         "brown": '#65370E',
+        "white": "#faebd7"
 
       },
       textColor: {
         "brown": '#65370E',
-      }
+        "white": "#faebd7"
+      },
+
+      borderColor: {
+        "brown": '#65370E',
+        "white": "#faebd7"
+      },
+
+  
 
 
     },
