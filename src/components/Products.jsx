@@ -7,8 +7,6 @@ import { useProducts } from "../hooks/useProducts";
 export default function Products() {
   const { data: products, isLoading, error } = useProducts();
 
-  console.log({ products, isLoading, error });
-
   return (
     <div className="grid grid-cols-2 lg:flex lg:flex-row gap-6 w-full p-6">
       {products &&

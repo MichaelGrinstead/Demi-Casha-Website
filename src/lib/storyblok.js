@@ -18,6 +18,20 @@ export const getProducts = async () => {
   }
 };
 
+export const getTour = async () => {
+  try {
+    const response = await storyblok.get("cdn/stories", {
+      starts_with: "tour/",
+      version: "published", // Use 'published' if you only want published content
+    });
+    console.log("Storyblok tour response:", response.data);
+    return response.data.stories;
+  } catch (error) {
+    console.error("Storyblok Tour API error:", error);
+    throw new Error(`Failed to fetch tours: ${error.message}`);
+  }
+};
+
 export const getAbout = async () => {
   try {
     const response = await storyblok.get("cdn/stories", {
