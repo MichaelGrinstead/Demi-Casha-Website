@@ -5,7 +5,7 @@ export default function Watch() {
         <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/V84wgdr3_eo"
+            src="https://www.youtube.com/watch?v=KyP1IucP_k4"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -15,7 +15,7 @@ export default function Watch() {
         <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/SB1fRZU86uE"
+            src="https://www.youtube.com/watch?v=m43JdB1Fp2I"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
