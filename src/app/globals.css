@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif; 
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -36,33 +36,33 @@ body {
 }
 
 .page-section.first {
-  background-image: url('/DemiBackground.jpg');
+  background-image: url("/DemiBackground.jpg");
 }
 
 .page-section.second {
   background-color: #faebd7;
-  
 }
 
 .page-section.third {
   background-color: #faebd7;
- 
 }
 
 .page-section.fourth {
   background-color: #faebd7;
-
 }
 
 .page-section.fifth {
   background-color: #faebd7;
-
 }
 
 .page-section.sixth {
   background-color: #faebd7;
-  background-image: url('/DemiContactBackground.jpg');
+  background-image: url("/DemiContactBackground.jpg");
+}
 
+.press-kit {
+  background-color: #faebd7;
+  min-height: 100vh;
 }
 
 @keyframes popDown {
@@ -79,21 +79,17 @@ body {
 }
 
 .text-border-header {
-  text-shadow: 
-  2px 0 0 #65370E, 
-  -2px 0 0 #65370E, 
-  0 2px 0 #65370E, 
-  0 -2px 0 #65370E,
-  2px 2px 0 #65370E, 
-  -2px -2px 0 #65370E, 
-  2px -2px 0 #65370E, 
-  -2px 2px 0 #65370E;
+  text-shadow: 2px 0 0 #65370e, -2px 0 0 #65370e, 0 2px 0 #65370e,
+    0 -2px 0 #65370e, 2px 2px 0 #65370e, -2px -2px 0 #65370e, 2px -2px 0 #65370e,
+    -2px 2px 0 #65370e;
 }
 
 .text-border {
-  text-shadow: 
-    2px 0 0 #65370E, 
-    -2px 0 0 #65370E, 
-    0 2px 0 #65370E, 
-    0 -2px 0 #65370E;
+  text-shadow: 2px 0 0 #65370e, -2px 0 0 #65370e, 0 2px 0 #65370e,
+    0 -2px 0 #65370e;
+}
+
+.store {
+  background-color: #faebd7;
+  min-height: 100vh;
 }

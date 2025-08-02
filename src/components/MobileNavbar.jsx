@@ -20,28 +20,25 @@ export default function MobileNavbar() {
             className="lg:hidden absolute h-10 w-10 left-2 top-4 text-white"
             onClick={() => setShowMobileNavbar(false)}
           />
-          <a href="#Home" onClick={() => setShowMobileNavbar(false)}>
+          <a href="/#Home" onClick={() => setShowMobileNavbar(false)}>
             HOME
           </a>
-          <a href="#Tour" onClick={() => setShowMobileNavbar(false)}>
+          <a href="/#Tour" onClick={() => setShowMobileNavbar(false)}>
             TOUR
           </a>
-          <a href="#About" onClick={() => setShowMobileNavbar(false)}>
+          <a href="/#About" onClick={() => setShowMobileNavbar(false)}>
             ABOUT
           </a>
-          <a href="#Watch" onClick={() => setShowMobileNavbar(false)}>
+          <a href="/#Watch" onClick={() => setShowMobileNavbar(false)}>
             WATCH
           </a>
-          <a
-            href="https://demicasha.bandcamp.com/"
-            onClick={() => setShowMobileNavbar(false)}
-          >
-            SHOP
+          <a href="/#Merch" onClick={() => setShowMobileNavbar(false)}>
+            MERCH
           </a>
-          <a href="#Listen" onClick={() => setShowMobileNavbar(false)}>
+          <a href="/#Listen" onClick={() => setShowMobileNavbar(false)}>
             LISTEN
           </a>
-          <a href="#Contact" onClick={() => setShowMobileNavbar(false)}>
+          <a href="/#Contact" onClick={() => setShowMobileNavbar(false)}>
             CONTACT
           </a>
         </nav>
