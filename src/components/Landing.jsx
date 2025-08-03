@@ -1,13 +1,11 @@
-import Header from "./Header";
-import NewRelease from "./NewRelease";
 import MobileNavbar from "../components/MobileNavbar";
 
 export default function Landing() {
   return (
-    <div className="page-section first relative" id="Home">
+    <div className="page-section first relative sm:mt-8" id="Home">
       <MobileNavbar />
-      <Header />
-      <NewRelease />
+      {/* <Header /> */}
+      {/* <NewRelease /> */}
     </div>
   );
 }

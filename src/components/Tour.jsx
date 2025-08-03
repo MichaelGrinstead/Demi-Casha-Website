@@ -30,15 +30,12 @@ const sortTourDatesByDate = (tourDates) => {
     const monthA = monthNames[a.content.month.toLowerCase()];
     const monthB = monthNames[b.content.month.toLowerCase()];
 
-    // Get year
-    const yearA = parseInt(a.content.year);
-    const yearB = parseInt(b.content.year);
+    // Create date objects for comparison (using current year as default)
+    const currentYear = new Date().getFullYear();
+    const dateA = new Date(currentYear, monthA, dayA);
+    const dateB = new Date(currentYear, monthB, dayB);
 
-    // Create date objects for comparison
-    const dateA = new Date(yearA, monthA, dayA);
-    const dateB = new Date(yearB, monthB, dayB);
-
-    return dateA - dateB;
+    return dateA - dateB; // Changed back to ascending order (earliest first)
   });
 };
 
@@ -47,8 +44,6 @@ export default function Tour() {
   const [currentPage, setCurrentPage] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [isSmallMobile, setIsSmallMobile] = useState(false);
-
-  console.log("Tour Dates:", tourDates);
 
   // Sort tour dates before rendering
   const sortedTourDates = tourDates ? sortTourDatesByDate([...tourDates]) : [];
@@ -84,6 +79,8 @@ export default function Tour() {
   const actualItemsPerPage = isMobile ? 2 : 4;
   const totalPages = Math.ceil(sortedTourDates.length / actualItemsPerPage);
 
+  console.log("Total Pages:", totalPages);
+
   // Reset to first page when screen size changes
   useEffect(() => {
     setCurrentPage(0);
@@ -104,14 +101,14 @@ export default function Tour() {
         <div className="flex gap-4">
           <button
             onClick={goToPrevPage}
-            className="text-brown hover:text-brown/70 transition-colors p-2"
+            className="text-brown hover:text-brown/70 transition-colors p-2 disabled:text-brown/20"
             disabled={totalPages <= 1}
           >
             <AiOutlineLeft className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
           <button
             onClick={goToNextPage}
-            className="text-brown hover:text-brown/70 transition-colors p-2"
+            className="text-brown hover:text-brown/70 transition-colors p-2 disabled:text-brown/20"
             disabled={totalPages <= 1}
           >
             <AiOutlineRight className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -140,21 +137,20 @@ export default function Tour() {
                         )
                         .map((tour) => {
                           const content = tour.content;
+                          console.log("Tour Dates:", content.tickets.url);
+
                           return (
                             <div
                               key={tour.id}
-                              className="bg-brown border-2 border-white text-white p-4 sm:p-6 rounded-lg flex items-center justify-between"
+                              className="bg-brown border-2 border-white text-white p-4 sm:p-6 rounded-lg flex items-center gap-1 justify-between"
                             >
                               <div className="flex items-center gap-4 sm:gap-6 w-full">
                                 <div className="border-2 border-white rounded-lg p-3 sm:p-4 text-center min-w-[80px] sm:min-w-[100px]">
-                                  <div className="text-white text-xs sm:text-sm uppercase">
+                                  <div className="text-white text-xs sm:text-sm uppercase truncate">
                                     {content.month}
                                   </div>
                                   <div className="text-2xl sm:text-4xl font-bold">
                                     {content.day}
-                                  </div>
-                                  <div className="text-white text-xs sm:text-sm text-left">
-                                    {content.year}
                                   </div>
                                 </div>
                                 <div className="flex flex-col items-start justify-center">
@@ -173,27 +169,58 @@ export default function Tour() {
                                     {content.location}
                                   </p>
                                   <div
-                                    className="flex justify-center"
+                                    className={`flex ${
+                                      isMobile
+                                        ? "justify-center"
+                                        : "justify-start"
+                                    }`}
                                     style={{
                                       display: isMobile ? "flex" : "none",
                                     }}
                                   >
-                                    <button className="border-2 border-white px-4 py-1 rounded-full hover:bg-white hover:text-brown transition-colors text-sm">
-                                      Tickets
-                                    </button>
+                                    {content.tickets?.url ? (
+                                      <a
+                                        href={content.tickets.url}
+                                        className="border-2 border-white px-4 py-1 rounded-full hover:bg-white hover:text-brown transition-colors text-sm"
+                                      >
+                                        Tickets
+                                      </a>
+                                    ) : (
+                                      <div className="border-2 text-center border-white px-4 py-1 rounded-full text-sm cursor-default">
+                                        Free Entry
+                                      </div>
+                                    )}
                                   </div>
                                 </div>
                               </div>
-                              <button
-                                className={`border-2 border-white rounded-full hover:bg-white hover:text-brown transition-colors text-base ${
-                                  isSmallMobile
-                                    ? "px-4 py-1 text-sm"
-                                    : "px-6 py-2"
-                                }`}
-                                style={{ display: isMobile ? "none" : "block" }}
-                              >
-                                Tickets
-                              </button>
+                              {content.tickets?.url ? (
+                                <a
+                                  href={content.tickets.url}
+                                  className={`border-2 border-white rounded-full hover:bg-white hover:text-brown transition-colors text-base ${
+                                    isSmallMobile
+                                      ? "px-4 py-1 text-sm"
+                                      : "px-6 py-2"
+                                  }`}
+                                  style={{
+                                    display: isMobile ? "none" : "block",
+                                  }}
+                                >
+                                  Tickets
+                                </a>
+                              ) : (
+                                <div
+                                  className={`border-2 border-white text-center rounded-full text-base cursor-default ${
+                                    isSmallMobile
+                                      ? "px-4 py-1 text-sm"
+                                      : "px-6 py-2"
+                                  }`}
+                                  style={{
+                                    display: isMobile ? "none" : "block",
+                                  }}
+                                >
+                                  Free Entry
+                                </div>
+                              )}
                             </div>
                           );
                         })

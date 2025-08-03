@@ -11,7 +11,7 @@ export default function NewRelease() {
       </h2>
 
       <a href="https://gyro.to/147205TheRiver">
-        <button className="tracking-widest xxs:h-16 lg:h-12 lg:w-42 px-6 py-2 mt-8 bg-brown text-white rounded-full border border-white hover:bg-white hover:text-brown hover:border-brown">
+        <button className="tracking-widest xxs:h-16 lg:h-12 lg:w-42 px-6 py-2 mt-8 mb-4 bg-brown text-white rounded-full border border-white hover:bg-white hover:text-brown hover:border-brown">
           LISTEN HERE
         </button>
       </a>
