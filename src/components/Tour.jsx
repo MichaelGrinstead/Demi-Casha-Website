@@ -96,7 +96,7 @@ export default function Tour() {
 
   return (
     <div className="h-fit bg-[#faebd7]" id="Tour">
-      <div className="flex items-center justify-center px-6 pt-24 relative">
+      <div className="flex items-center justify-center p-6 pt-24 relative">
         <h2 className="text-brown text-2xl sm:text-3xl font-semibold text-center">
           TOUR
         </h2>

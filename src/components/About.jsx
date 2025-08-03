@@ -1,11 +1,13 @@
 "use client";
-import { useAbout } from "../hooks/useAbout";
 
 export default function About() {
   return (
     <div className="page-section second" id="About">
       <div className="h-full flex flex-col justify-center items-center w-1/2 xxs:w-3/4 ml-auto mr-auto">
-        <p className="text-brown text-xl mt-24">
+        <h2 className="text-brown text-2xl sm:text-3xl font-semibold text-center mt-24 mb-6">
+          ABOUT
+        </h2>
+        <p className="text-brown text-xl mt-6">
           Demi Casha is an independent singer-songwriter from the Sunshine
           Coast, QLD, whose music dives deep into love, loss and life’s raw
           beauty. With a voice that’s equal parts strength and softness, Demi
