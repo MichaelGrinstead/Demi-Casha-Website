@@ -95,10 +95,12 @@ export default function Tour() {
   };
 
   return (
-    <div className="page-section third" id="Tour">
-      <div className="flex items-center justify-between px-6 pt-24">
-        <h2 className="text-brown text-2xl sm:text-3xl font-semibold">TOUR</h2>
-        <div className="flex gap-4">
+    <div className="h-fit bg-[#faebd7]" id="Tour">
+      <div className="flex items-center justify-center px-6 pt-24 relative">
+        <h2 className="text-brown text-2xl sm:text-3xl font-semibold text-center">
+          TOUR
+        </h2>
+        <div className="flex gap-4 absolute right-6">
           <button
             onClick={goToPrevPage}
             className="text-brown hover:text-brown/70 transition-colors p-2 disabled:text-brown/20"

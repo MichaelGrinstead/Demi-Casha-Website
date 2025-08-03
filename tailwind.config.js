@@ -1,41 +1,39 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       backgroundColor: {
-        "brown": '#65370E',
-        "white": "#faebd7"
-
+        brown: "#65370E",
+        darkBrown: "#4A2A0A",
+        white: "#faebd7",
       },
       textColor: {
-        "brown": '#65370E',
-        "white": "#faebd7"
+        brown: "#65370E",
+        darkBrown: "#4A2A0A",
+        white: "#faebd7",
       },
 
       borderColor: {
-        "brown": '#65370E',
-        "white": "#faebd7"
+        brown: "#65370E",
+        darkBrown: "#4A2A0A",
+        white: "#faebd7",
       },
 
       screens: {
-        'xxs': '320px',
-        'xs': '480px',
-        'sm': '640px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1200px',
-        '2xl': '1536px',
+        xxs: "320px",
+        xs: "480px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1200px",
+        "2xl": "1536px",
       },
-
-  
-
-
     },
   },
   plugins: [],
-}
+};

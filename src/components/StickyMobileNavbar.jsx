@@ -8,7 +8,7 @@ export default function StickyMobileNavbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   const navbarClass = showMenu
-    ? "lg:hidden fixed top-4 left-2 h-10 w-10  text-brown"
+    ? "lg:hidden fixed top-4 left-2 h-10 w-10 z-50 text-brown"
     : "hidden";
 
   useEffect(() => {
