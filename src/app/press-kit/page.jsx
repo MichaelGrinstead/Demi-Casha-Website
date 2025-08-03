@@ -24,21 +24,21 @@ const PressKitContent = React.forwardRef((props, ref) => {
         Unearthed and 4ZZZ.
       </p>
       <p className="text-brown text-xl mt-10">
-        With an impressive resume that includes opening for Karl S. Williams'
-        sell-out Brisbane show, the Sunshine Coasts dweller deliver refreshingly
-        wild vocals sweeps over audiences like the ocean water that runs through
-        her veins.
+        With an impressive resume that includes opening for Karl S.
+        Williams&apos; sell-out Brisbane show, the Sunshine Coasts dweller
+        deliver refreshingly wild vocals sweeps over audiences like the ocean
+        water that runs through her veins.
       </p>
       <p className="text-brown text-xl mt-10">
         The sheer verve and honesty of Demi Cashas performances have made her a
         regular fixture at blues and folk venues and festival stages including
-        Caloundra Music Festival, The Bearded Lady, It's Still A Secret and many
-        more.
+        Caloundra Music Festival, The Bearded Lady, It&apos;s Still A Secret and
+        many more.
       </p>
       <p className="text-brown text-xl mt-10 ">
         Whether solo or performing with her band, you can hear a pin drop when
         Demi Casha takes the stage, but what follows is an emotional grenade
-        that you'll never forget.
+        that you&apos;ll never forget.
       </p>
     </div>
   );
