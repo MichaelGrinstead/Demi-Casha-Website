@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import html2pdf from "html2pdf.js";
 
 const PressKitContent = React.forwardRef((props, ref) => {
   return (
@@ -49,7 +48,10 @@ PressKitContent.displayName = "PressKitContent";
 export default function PressKit() {
   const contentRef = React.useRef(null);
 
-  const downloadPdf = () => {
+  const downloadPdf = async () => {
+    if (typeof window === "undefined") return;
+
+    const html2pdf = (await import("html2pdf.js")).default;
     const element = contentRef.current;
     const options = {
       filename: "Demi-Casha-press-kit.pdf",
