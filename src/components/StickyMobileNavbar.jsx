@@ -50,8 +50,8 @@ export default function StickyMobileNavbar() {
           <a href="#Tour" onClick={() => setShowMobileNavbar(false)}>
             TOUR
           </a>
-          <a href="#About" onClick={() => setShowMobileNavbar(false)}>
-            ABOUT
+          <a href="#Bio" onClick={() => setShowMobileNavbar(false)}>
+            BIO
           </a>
           <a href="#Watch" onClick={() => setShowMobileNavbar(false)}>
             WATCH

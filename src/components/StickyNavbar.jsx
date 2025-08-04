@@ -5,7 +5,7 @@ export default function StickyNavbar() {
     <nav className="header-animation fixed top-0 hidden lg:flex flex-row justify-center items-center gap-6 text-white w-full h-10 bg-brown  z-50">
       <a href="/#Home">HOME</a>
       <a href="/#Tour">TOUR</a>
-      <a href="/#About">ABOUT</a>
+      <a href="/#Bio">BIO</a>
       <a href="/#Watch">WATCH</a>
       <a href="/#Merch">MERCH</a>
       <a href="/#Listen">LISTEN</a>

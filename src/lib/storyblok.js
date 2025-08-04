@@ -10,7 +10,6 @@ export const getProducts = async () => {
       starts_with: "products/",
       version: "published", // Use 'published' if you only want published content
     });
-    console.log("Storyblok response:", response.data);
     return response.data.stories;
   } catch (error) {
     console.error("Storyblok API error:", error);
@@ -24,7 +23,6 @@ export const getTour = async () => {
       starts_with: "tour/",
       version: "published", // Use 'published' if you only want published content
     });
-    console.log("Storyblok tour response:", response.data);
     return response.data.stories;
   } catch (error) {
     console.error("Storyblok Tour API error:", error);
@@ -38,7 +36,6 @@ export const getAbout = async () => {
       starts_with: "about/",
       version: "published",
     });
-    console.log("About response:", response.data);
     return response.data.stories;
   } catch (error) {
     console.error("Storyblok About API error:", error);
