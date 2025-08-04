@@ -6,7 +6,7 @@ export default function StickyNavbar() {
       <a href="/#Home">HOME</a>
       <a href="/#Tour">TOUR</a>
       <a href="/#Bio">BIO</a>
-      <a href="/#Watch">WATCH</a>
+      <a href="/#Videos">VIDEOS</a>
       <a href="/#Merch">MERCH</a>
       <a href="/#Listen">LISTEN</a>
       <a href="/#Contact">CONTACT</a>

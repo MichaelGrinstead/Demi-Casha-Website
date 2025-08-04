@@ -1,9 +1,9 @@
 export default function Watch() {
   return (
-    <div className="page-section fourth" id="Watch">
+    <div className="page-section fourth" id="Videos">
       <div className="h-full flex flex-col justify-center items-center">
         <h2 className="text-brown text-2xl sm:text-3xl font-semibold text-center mt-24 mb-12">
-          WATCH
+          VIDEOS
         </h2>
         <div className="aspect-w-16 aspect-h-9 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe

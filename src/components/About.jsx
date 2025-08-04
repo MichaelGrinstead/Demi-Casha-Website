@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="page-section second" id="Bio">
       <div className="h-full flex flex-col justify-center items-center w-full px-40 ">
-        <h2 className="text-brown text-2xl sm:text-3xl font-semibold text-center mt-24 mb-6">
+        <h2 className="text-brown text-2xl sm:text-3xl font-semibold text-center py-12">
           BIO
         </h2>
         <p className="text-brown text-xl mt-6">
