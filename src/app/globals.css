@@ -36,7 +36,7 @@ body {
 }
 
 .page-section.first {
-  background-image: url("/Demi_Background.jpg");
+  background-image: url("/Demi_Casha.png");
 }
 
 .page-section.second {
@@ -57,7 +57,7 @@ body {
 
 .page-section.sixth {
   background-color: #faebd7;
-  background-image: url("/DemiContactBackground.jpg");
+  /* background-image: url("/DemiContactBackground.jpg"); */
 }
 
 .press-kit {

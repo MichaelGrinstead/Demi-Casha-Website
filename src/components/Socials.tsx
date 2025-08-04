@@ -1,10 +1,14 @@
 import { SlSocialSpotify } from "react-icons/sl";
 import { BsInstagram } from "react-icons/bs";
 import { SlSocialYoutube } from "react-icons/sl";
+import { RiFacebookBoxLine } from "react-icons/ri";
 
 export default function Socials() {
   return (
-    <div className="flex flex-row top-14 right-8 gap-2 justify-center items-center">
+    <div className="flex flex-row top-14 right-8 gap-4 justify-center items-center">
+      <a href="https://www.facebook.com/demicashamusic/">
+        <RiFacebookBoxLine className=" top-10 right-0 text-4xl text-brown h-9 w-9" />
+      </a>
       <a href="https://www.instagram.com/demicasha">
         <BsInstagram className=" top-10 right-0 text-4xl text-brown h-7 w-7" />
       </a>
