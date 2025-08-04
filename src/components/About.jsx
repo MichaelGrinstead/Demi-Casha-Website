@@ -13,15 +13,16 @@ export default function About() {
           between. Her songwriting is emotional, unfiltered, and grounded in
           lived experience—carried by a voice that&apos;s both powerful and
           vulnerable. She sings to make sense of life, and in doing so, gives
-          others permission to feel it all too
+          others permission to feel it all too.
         </p>
         <p className="text-brown text-xl mt-10">
           Her sound sits somewhere between indie-folk and what she
-          affectionately calls "gum tree rock"—earthy, organic, and uniquely
-          Australian in spirit. With influences as vast as Elvis Presley, Colter
-          Wall, Fleet Foxes, Cat Clyde, and Patti Smith, Demi draws from a wide
-          range of styles and eras to create something that&apos;s unmistakably
-          her own. The through-line? Honesty, soul, and emotional weight.
+          affectionately calls &quot;gum tree rock&quot;—earthy, organic, and
+          uniquely Australian in spirit. With influences as vast as Elvis
+          Presley, Colter Wall, Fleet Foxes, Cat Clyde, and Patti Smith, Demi
+          draws from a wide range of styles and eras to create something
+          that&apos;s unmistakably her own. The through-line? Honesty, soul, and
+          emotional weight.
         </p>
         <p className="text-brown text-xl mt-10">
           Demi performs solo, using a Maton dreadnought guitar, a kick drum, and
@@ -35,7 +36,7 @@ export default function About() {
           As a fully independent artist, Demi writes, records, books, and tours
           on her own terms. Her journey has seen her support Australian
           heavyweights like Thelma Plum, C.W. Stoneking, Watty Thompson, Hat
-          Fitz & Cara, and Busby Marou. She&apos;s played major festivals
+          Fitz &amp; Cara, and Busby Marou. She&apos;s played major festivals
           including Falls Festival, Caloundra Music Festival, Horizon Festival,
           and Woodfordia&apos;s Lake Gkula. In 2023, she independently booked
           and toured 20 shows along the East Coast in support of her single The
@@ -52,11 +53,11 @@ export default function About() {
         </p>
 
         <p className="text-brown text-xl mt-10 italic text-center px-6 font-semibold">
-          "Demi Casha&apos;s raw energy and delivery of vocals transcends back
-          to the 70s, likened to Grace Slick from Jefferson Airplane... You can
-          hear a pin drop when she takes the stage, but what follows is an
-          emotional grenade you&apos;ll never forget." – Cara Robinson (Hat Fitz
-          & Cara)
+          &quot;Demi Casha&apos;s raw energy and delivery of vocals transcends
+          back to the 70s, likened to Grace Slick from Jefferson Airplane... You
+          can hear a pin drop when she takes the stage, but what follows is an
+          emotional grenade you&apos;ll never forget.&quot; – Cara Robinson (Hat
+          Fitz &amp; Cara)
         </p>
       </div>
     </div>
