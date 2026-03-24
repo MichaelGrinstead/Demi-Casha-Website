@@ -242,7 +242,7 @@ const SeatedWidget = () => {
   useEffect(() => {
     // Check if script already exists
     const existingScript = document.querySelector(
-      'script[src="https://widget.seated.com/app.js"]'
+      'script[src="https://widget.seated.com/app.js"]',
     );
 
     if (!existingScript) {
@@ -261,7 +261,7 @@ const SeatedWidget = () => {
         UPCOMING SHOWS
       </h2>
       <div
-        className="bg-white text-brown px-40 py-6"
+        className="bg-white text-brown px-12 sm:px-24 py-6"
         id="seated-55fdf2c0"
         data-artist-id="f1502f23-7c3b-4b56-a7b1-c02a87e89688"
         data-css-version="3"
