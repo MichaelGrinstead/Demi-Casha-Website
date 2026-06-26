@@ -5,7 +5,7 @@ export default function Watch() {
         <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/watch?v=izT_gWPN0Hs"
+            src="https://www.youtube.com/embed/izT_gWPN0Hs"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -15,7 +15,7 @@ export default function Watch() {
         <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/watch?v=NUr0VWZKO2M"
+            src="https://www.youtube.com/embed/NUr0VWZKO2M"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -25,7 +25,7 @@ export default function Watch() {
         <div className="aspect-w-16 aspect-h-9 mt-24 max-w-full lg:w-[1120px] lg:h-[630px] xxs:w-[368px] xxs:h-[207px]">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/watch?v=hM04EeJQGoI"
+            src="https://www.youtube.com/embed/hM04EeJQGoI"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
