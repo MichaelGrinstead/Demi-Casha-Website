@@ -6,20 +6,26 @@ export default function Listen() {
       </h2>
       <div className="w-3/4 flex flex-col justify-center items-center ml-auto mr-auto">
         <iframe
-          className="mt-12"
-          src="https://open.spotify.com/embed/album/00r8OsG6wTaljM9qluRviz?utm_source=generator&theme=1"
+          data-testid="embed-iframe"
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/album/7zJsZTaSWPQrGu3SMEqVqs?utm_source=generator&si=873502edb2a942d9"
           width="100%"
-          height="152"
+          height="352"
+          frameBorder="0"
+          allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
       </div>
       <div className="w-3/4 flex flex-col justify-center items-center ml-auto mr-auto">
         <iframe
-          className="mt-8 mb-8 h-[620px]"
-          src="https://open.spotify.com/embed/album/6JgvUNnkW8yiGg3vlADCDA?utm_source=generator&theme=1"
+          data-testid="embed-iframe"
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/track/1iFNhikHP3qETp4kgg81ir?utm_source=generator&si=61df6aa3862144ba"
           width="100%"
           height="352"
+          frameBorder="0"
+          allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
