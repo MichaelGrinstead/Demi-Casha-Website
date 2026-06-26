@@ -7,7 +7,7 @@ export default function Listen() {
       <div className="w-3/4 flex flex-col justify-center items-center ml-auto mr-auto">
         <iframe
           data-testid="embed-iframe"
-          style="border-radius:12px"
+          style={{ borderRadius: "12px" }}
           src="https://open.spotify.com/embed/album/7zJsZTaSWPQrGu3SMEqVqs?utm_source=generator&si=873502edb2a942d9"
           width="100%"
           height="352"
@@ -20,7 +20,7 @@ export default function Listen() {
       <div className="w-3/4 flex flex-col justify-center items-center ml-auto mr-auto">
         <iframe
           data-testid="embed-iframe"
-          style="border-radius:12px"
+          style={{ borderRadius: "12px" }}
           src="https://open.spotify.com/embed/track/1iFNhikHP3qETp4kgg81ir?utm_source=generator&si=61df6aa3862144ba"
           width="100%"
           height="352"
