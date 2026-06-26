@@ -29,13 +29,13 @@ body {
 }
 
 .page-section {
-  min-height: 100vh; /* ensures it takes up the full viewport height */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .page-section.first {
+  min-height: 100vh; /* ensures it takes up the full viewport height */
   background-image: url("/Demi_Casha.png");
 }
 
@@ -79,13 +79,22 @@ body {
 }
 
 .text-border-header {
-  text-shadow: 2px 0 0 #65370e, -2px 0 0 #65370e, 0 2px 0 #65370e,
-    0 -2px 0 #65370e, 2px 2px 0 #65370e, -2px -2px 0 #65370e, 2px -2px 0 #65370e,
+  text-shadow:
+    2px 0 0 #65370e,
+    -2px 0 0 #65370e,
+    0 2px 0 #65370e,
+    0 -2px 0 #65370e,
+    2px 2px 0 #65370e,
+    -2px -2px 0 #65370e,
+    2px -2px 0 #65370e,
     -2px 2px 0 #65370e;
 }
 
 .text-border {
-  text-shadow: 2px 0 0 #65370e, -2px 0 0 #65370e, 0 2px 0 #65370e,
+  text-shadow:
+    2px 0 0 #65370e,
+    -2px 0 0 #65370e,
+    0 2px 0 #65370e,
     0 -2px 0 #65370e;
 }
 
